@@ -57,7 +57,7 @@ function passwordLen() {
     errorMessage("Must be a number from 8 to 128");
     passwordLen();
   }
-  return;
+  return response;
 }
 
 //prompts for yes/no response and validates
