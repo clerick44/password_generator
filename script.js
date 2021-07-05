@@ -50,12 +50,12 @@ function passwordLen() {
   //checks if input is a whole number
   if (response - Math.floor(response) !== 0) {
     errorMessage("Must be a Whole Number from 8 to 128");
-    passwordLen();
+    return passwordLen();
   }
   //checks that input is a number from 8-128
   if (8 > response || response > 128 || isNaN(response)) {
     errorMessage("Must be a number from 8 to 128");
-    passwordLen();
+    return passwordLen();
   }
   return response;
 }
@@ -134,5 +134,4 @@ function passwordBuilder(passConditions) {
 // generates error message
 function errorMessage(errorString) {
   alert(errorString);
-  return;
 }

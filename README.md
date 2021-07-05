@@ -18,6 +18,6 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 
-![Homepage screenshot](password_generator/password_generator_screenshot.png)
+![Homepage screenshot](.password_generator/password_generator_screenshot.png)
 
 Final website at [https://clerick44.github.io/password_generator/](https://clerick44.github.io/password_generator/)
