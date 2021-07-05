@@ -70,7 +70,7 @@ function yesNoDialog(promptString) {
     return false;
   }
   errorMessage("Answer Yes or No");
-  yesNoDialog(promptString);
+  return yesNoDialog(promptString);
 }
 
 //builds dialong string for final confirmation dialog
@@ -134,4 +134,5 @@ function passwordBuilder(passConditions) {
 // generates error message
 function errorMessage(errorString) {
   alert(errorString);
+  return;
 }
